@@ -204,12 +204,15 @@ header ul li a:hover{
     padding-top: 100px ;
 }
 
+.zoldHatter img, .esoerdoatlasz img{
+    width: 100%;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
 .esoerdoatlasz img{
     max-width: 100%;
-    object-fit: cover;
     height: 300px;
-    width: 100%;
-    margin-top: 20px;
     
 }
 
@@ -222,11 +225,25 @@ header ul li a:hover{
     color: #8b8b8b;
 }
 
-.esoerdoatlasz h3{
+.esoerdoatlasz h3, .zoldHatter h3{
     font-family: "JetBrains Mono", monospace;
     margin: 10px 0px;
 }
 
 .esoerdoatlasz p{
     color: #616161;
+}
+
+.esoerdoatlasz{
+    padding-bottom: 100px;
+}
+
+.zoldHatter{
+    background-color: #173d30;
+    color: #fff;
+    padding-top: 100px;
+}
+
+.zoldHatter h2{
+    font-family: "Inter", sans-serif;
 }
