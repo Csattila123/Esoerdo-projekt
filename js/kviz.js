@@ -1,0 +1,1 @@
+var kvizKerder = document.querySelector(".kvizKerdes");
