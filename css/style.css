@@ -19,6 +19,7 @@ header {
     background-position: center top;
     padding-left: 80px;
     padding-right: 80px;
+    background-attachment: fixed;
 }
 
 header ul{
@@ -31,7 +32,7 @@ header ul li a{
     text-decoration: none;
     margin-right: 30px;
     color: #fff;
-    font-size: 16px;
+    font-size: 15px;
     transition: font-size 0.3s ease-in-out;
     
 }
@@ -39,7 +40,7 @@ header ul li a{
 
 
 header ul li a:hover{
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .kezdes{
@@ -230,3 +231,105 @@ header ul li a:hover{
 .esoerdoatlasz p{
     color: #616161;
 }
+
+.esoerdoszintek img{
+    object-fit: cover;
+    max-width: 100%;
+    width: 100%;
+}
+
+.esoerdoszint{
+    padding-top: 70px;
+    background-color: #f2f0e7;
+}
+
+.szintek{
+    padding-left: 60px;
+}
+
+.szintek h2{
+     font-family: "JetBrains Mono", monospace;
+     font-size: 50px;
+}
+
+.szintek p{
+    color: #616161;
+}
+
+
+
+
+
+.erdo-szintek {
+    width: 100%;
+    background-color: #f2f0e7;
+    color: #1b352b;
+    margin-top: 45px;
+}
+
+.erdo-szint {
+    display: grid;
+    grid-template-columns: 25px 1fr;
+    column-gap: 0;
+
+    padding: 17px 15px 16px 0;
+    border-bottom: 1px solid #ccd0c4;
+
+    transition: background-color 0.2s ease;
+}
+
+.erdo-szint:first-child {
+    padding-top: 0;
+}
+
+.erdo-szint:last-child {
+    border-bottom: none;
+}
+
+.erdo-szint.kiemelt {
+    background-color: #dfe5d3;
+    padding: 17px 15px 16px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.szint-szam {
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: #234638;
+    padding-top: 3px;
+}
+
+.szint-tartalom h3 {
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.15;
+
+    color: #1b352b;
+    margin: 0 0 3px;
+}
+
+.szint-alcim {
+    display: block;
+    font-family: "Inter", sans-serif;
+    font-size: 9px;
+    font-weight: 500;
+    line-height: 1.6;
+    color: #234638;
+
+    margin-bottom: 5px;
+}
+
+.szint-tartalom p {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.7;
+
+    color: #718077;
+    margin: 0;
+    max-width: 850px;
+}
+
