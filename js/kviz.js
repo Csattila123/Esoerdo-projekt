@@ -6,7 +6,8 @@ var elertPontok = 0;
 function kviz() {
     if (aktualisIndex == 10) {
         document.querySelector(".kviz").classList.add("d-none");
-        document.querySelector(".kiErtekeles").innerHTML = "<p>Elért pontszámok: "+ elertPontok +"</p>";
+        document.querySelector(".kiertekeles").classList.remove("d-none");
+        document.querySelector(".kiertekeles").innerHTML = "<p>Elért pontszámok: "+ elertPontok +"</p>";
     }
     kvizKerdes.innerHTML = kerdesek[aktualisIndex].kerdes;
 
