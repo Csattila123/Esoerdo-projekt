@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/interaktiv.css">
     <title>Interaktív oldal</title>
 </head>
 
@@ -13,24 +14,31 @@
     <header></header>
     <main class="p-5">
         <section class="container">
-            <div class="kviz">
+            <div class="kviz text-center">
                 <p class="fs-1 kvizKerdes"></p>
 
-                <div class="form-field">
-                    <input class="radio" name="radios" type="radio" />
-                    <label>Igaz</label>
+                <div class="radios d-flex justify-content-around fs-4">
+                    <div class="form-field">
+                        <input class="radio" name="radios" type="radio" value="1" />
+                        <label>Igaz</label>
+                    </div>
+                    <div class="form-field">
+                        <input class="radio" name="radios" type="radio" value="0" />
+                        <label>Hamis</label>
+                    </div>
                 </div>
-                <div class="form-field">
-                    <input class="radio" name="radios" type="radio" />
-                    <label>Hamis</label>
-                </div>
+                <p class="mt-5"><button type="button" class="btn btn-success">Válasz</button></p>
+            </div>
+
+            <div class="kiErtekeles fs-1 text-center">
+                
             </div>
 
         </section>
     </main>
     <footer></footer>
 
-    <script src="js/kvizData.json"></script>
+    <script src="js/kvizData.js"></script>
     <script src="js/kviz.js"></script>
 </body>
 
