@@ -1,0 +1,69 @@
+.logo{
+    height: 50px;
+}
+
+header h2{
+    margin: 0px 10px;
+}
+
+header {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(34, 78, 14, 0.25)),
+        url("../images/Rainforest canopy.png");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    background-position: center top;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+header ul{
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+header ul li a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: #fff;
+    font-size: 16px;
+    transition: font-size 0.3s ease-in-out;
+    
+}
+
+
+
+header ul li a:hover{
+    font-size: 18px;
+}
+
+.kezdes{
+    margin-top: 100px;
+}
+
+.kezdes span{
+    color: rgb(217, 255, 0);
+}
+
+.kezdes h1{
+    margin-top: 10px;
+    font-size: 90px;
+}
+
+.kezdes p:first-of-type{
+    color: rgb(204, 204, 204);
+    font-size: 18px;
+}
+
+
+.kezdes button{
+    font-size: 16px;
+    padding: 10px 30px;
+}
+
+.kezdes button:hover{
+    background-color: rgb(74, 177, 6);
+}
