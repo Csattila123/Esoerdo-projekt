@@ -6,12 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/interaktiv.css">
+    <link rel="stylesheet" href="css/interaktiv.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Interaktív oldal</title>
 </head>
 
 <body>
-    <header></header>
+    <header>
+        <div class="szoveg p-5">
+            <div class="container-fluid border-bottom pb-3">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="d-flex">
+                            <img class="logo" src="images/logo.png" alt="logo" title="logo">
+                            <h2>LOMB</h2>
+                            <span class="text-uppercase mt-2">Esőerdő atlasz</span>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4">
+                        <ul class="d-flex">
+                            <li><a href="">Felfedezés</a></li>
+                            <li><a href="elovilag.html">Élővilág</a></li>
+                            <li><a href="mitTehetsz.html">Mit tehetsz?</a></li>
+                            <li><a href="terkep.html">Térkép és Quiz</a></li>
+                            <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                        <path
+                                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                                    </svg></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kezdes">
+                <span class="text-uppercase">Természerajz / Összefüggések / Jövő</span>
+                <h1>Egy egész világ <br> a lombok alatt</h1>
+                <p>Lépj be az esőerdők világába. Ismerd meg az élet szövevényét, <br>
+                    amely a bolygónk jövőjét is alakítja.</p>
+                <button type="button" class="btn btn-success">Indulhat a Felfedezés</button>
+            </div>
+        </div>
+    </header>
     <main class="p-5">
         <section class="container">
             <div class="kviz text-center">
@@ -27,11 +65,11 @@
                         <label>Hamis</label>
                     </div>
                 </div>
-                <p class="mt-5"><button type="button" class="btn btn-success">Válasz</button></p>
+                <p class="mt-5"><button type="button" class="btn btn-success kvizGomb">Válasz</button></p>
             </div>
 
             <div class="kiErtekeles fs-1 text-center">
-                
+
             </div>
 
         </section>

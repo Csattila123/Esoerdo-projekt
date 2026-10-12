@@ -12,7 +12,7 @@ function kviz() {
 
 }
 
-document.querySelector(".btn-success").addEventListener('click', () => {
+document.querySelector(".kvizGomb").addEventListener('click', () => {
     var kijeloltRadio = document.querySelector("input[name='radios']:checked");
 
     if (kijeloltRadio.value == kerdesek[aktualisIndex].valasz) {
