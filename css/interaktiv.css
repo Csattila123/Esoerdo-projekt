@@ -8,11 +8,26 @@ input{
 }
 
 .kviz, .kiertekeles{
-    border: solid 3px #173d30;
+    border: solid 3px #fff;
     border-radius: 10px;
 }
 
-.kiertekeles{
-    background-color: #173d30;
+main{
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(11, 26, 4, 0.25)),
+        url("../images/quizBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #fff;
+    background-position: center top;
+}
+
+.kviz{
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(9, 24, 3, 0.5)),
+        url("../images/realQuizBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    background-position: center top;
 }
