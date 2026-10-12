@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
 .logo{
     height: 50px;
 }
@@ -198,5 +200,33 @@ header ul li a:hover{
     transform: translate(2px, -2px);
 }
 
+.tropusiesoerdo{
+    padding-top: 100px ;
+}
 
+.esoerdoatlasz img{
+    max-width: 100%;
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+    margin-top: 20px;
+    
+}
 
+.esoerdohatter{
+    background-color: rgb(232, 230, 219);
+}
+
+.esoerdoatlasz span{
+    font-size: 14px;
+    color: #8b8b8b;
+}
+
+.esoerdoatlasz h3{
+    font-family: "JetBrains Mono", monospace;
+    margin: 10px 0px;
+}
+
+.esoerdoatlasz p{
+    color: #616161;
+}
