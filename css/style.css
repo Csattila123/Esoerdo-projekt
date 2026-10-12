@@ -67,3 +67,136 @@ header ul li a:hover{
 .kezdes button:hover{
     background-color: rgb(74, 177, 6);
 }
+
+
+
+
+
+
+.kapcsolatok {
+    background-color: #f2f0e7;
+    padding: 85px 5.4% 80px;
+}
+
+.kapcsolatok .container {
+    padding: 0;
+}
+
+
+.kapcsolatok-fejlec {
+    row-gap: 25px;
+}
+
+.szekcio-cimke {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 42px;
+    color: #1b352b;
+}
+
+.kapcsolatok-cim {
+    font-size: clamp(48px, 4.5vw, 62px);
+    font-weight: 500;
+    line-height: 1.02;
+    letter-spacing: -1.5px;
+    margin: 0;
+}
+
+.kapcsolatok-bevezeto {
+    max-width: 450px;
+    margin-left: auto;
+    padding-top: 25px;
+}
+
+.kapcsolatok-bevezeto p {
+    color: #69786e;
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 14px;
+}
+
+.kapcsolatok-bevezeto span {
+    display: block;
+    font-size: 12px;
+    line-height: 1.7;
+   
+}
+
+
+.kapcsolatok-vonal {
+    border: 0;
+    border-top: 2px solid #ccd0c4;
+    opacity: 1;
+    margin: 40px 0;
+}
+
+
+.kapcsolat-kartya {
+    height: 100%;
+}
+
+.kartya-felso {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 22px;
+    padding-right: 12px;
+}
+
+
+
+.kapcsolat-kartya h3 {
+    font-size: 29px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    margin-bottom: 14px;
+}
+
+.kapcsolat-kartya p {
+    color: #718077;
+    font-size: 17px;
+    line-height: 1.75;
+    max-width: 390px;
+    margin-bottom: 15px;
+}
+
+.kapcsolat-kartya a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+
+    color: #173d30;
+    font-size: 11px;
+    font-weight: 700;
+
+    text-decoration: none;
+    border: none;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+
+    transition: opacity 0.2s ease;
+}
+
+.kapcsolat-kartya a span {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 500;
+    transition: transform 0.2s ease;
+    font-family: "Inter", sans-serif;
+}
+
+.kapcsolat-kartya a:hover {
+    color: #173d30;
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.kapcsolat-kartya a:hover span {
+    transform: translate(2px, -2px);
+}
+
+
+
