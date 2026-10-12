@@ -1,4 +1,4 @@
-[
+var kerdesek = [
     {
         "kerdes": "Az esőerdők a Föld felszínének több mint 20%-át borítják.",
         "valasz": 0
