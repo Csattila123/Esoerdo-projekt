@@ -6,3 +6,13 @@ input{
 .kvizGomb{
     width: 200px;
 }
+
+.kviz, .kiertekeles{
+    border: solid 3px #173d30;
+    border-radius: 10px;
+}
+
+.kiertekeles{
+    background-color: #173d30;
+    color: #fff;
+}
