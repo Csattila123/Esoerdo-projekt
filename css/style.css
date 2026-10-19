@@ -90,10 +90,13 @@ header ul li a:hover{
     row-gap: 25px;
 }
 
+.kisZold small, .szekcio-cimke{
+    text-transform: uppercase;
+}
+
 .szekcio-cimke {
     font-size: 11px;
     font-weight: 600;
-    text-transform: uppercase;
     margin-bottom: 42px;
     color: #1b352b;
 }
@@ -205,7 +208,7 @@ header ul li a:hover{
     padding-top: 100px ;
 }
 
-.zoldHatter img, .esoerdoatlasz img{
+.zoldHatter img, .esoerdoatlasz img, .torekenyEgyensuly img{
     width: 100%;
     object-fit: cover;
     margin-top: 20px;
@@ -226,7 +229,7 @@ header ul li a:hover{
     color: #8b8b8b;
 }
 
-.esoerdoatlasz h3, .zoldHatter h3{
+.esoerdoatlasz h3, .zoldHatter h3, .torekenyEgyensuly h3{
     font-family: "JetBrains Mono", monospace;
     margin: 10px 0px;
 }
@@ -239,13 +242,16 @@ header ul li a:hover{
     padding-bottom: 100px;
 }
 
-.zoldHatter{
-    background-color: #173d30;
-    color: #fff;
+.torekenyEgyensuly, .zoldHatter{
     padding-top: 100px;
 }
 
-.zoldHatter h2{
+.zoldHatter{
+    background-color: #173d30;
+    color: #fff;
+}
+
+.zoldHatter h2, .torekenyEgyensuly h2{
     font-family: "Inter", sans-serif;
 }
 .esoerdoszintek img{
@@ -375,4 +381,8 @@ header ul li a:hover{
 
 .pelda{
     color:#8a8a8a;
+}
+.kisZold{
+    background-color: #dde4d1;
+    color: #173d30;
 }
