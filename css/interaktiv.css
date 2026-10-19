@@ -13,7 +13,12 @@ input{
 }
 
 main{
-    background-color: #fff;
+    background-color: #e8e6db;
+}
+
+main img{
+    width: 100%;
+    object-fit: cover;
 }
 
 .kvizSection{
