@@ -39,4 +39,5 @@ main img{
     background-size: cover;
     color: #fff;
     background-position: center top;
+    height: 400px;
 }
