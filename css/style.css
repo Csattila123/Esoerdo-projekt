@@ -77,7 +77,7 @@ header ul li a:hover{
 
 
 .kapcsolatok {
-    background-color: #f2f0e7;
+    background-color: #f2f0e7 !important;
     padding: 85px 5.4% 80px;
 }
 
@@ -221,7 +221,7 @@ header ul li a:hover{
 }
 
 .esoerdohatter{
-    background-color: rgb(232, 230, 219);
+    background-color: rgb(232, 230, 219) !important;
 }
 
 .esoerdoatlasz span{
@@ -242,7 +242,7 @@ header ul li a:hover{
     padding-bottom: 100px;
 }
 
-.torekenyEgyensuly, .zoldHatter{
+.torekenyEgyensuly, .zoldHatter, .tavoliErdok{
     padding-top: 100px;
 }
 
@@ -262,7 +262,7 @@ header ul li a:hover{
 
 .esoerdoszint{
     padding-top: 70px;
-    background-color: #f2f0e7;
+    background-color: #f2f0e7 !important;
 }
 
 .szintek{
@@ -272,19 +272,20 @@ header ul li a:hover{
 .szintek h2{
      font-family: "JetBrains Mono", monospace;
      font-size: 50px;
+     color: #000;
 }
 
 .szintek p{
     color: #616161;
 }
 
-
-
-
+.szintek{
+    color: #000 !important;
+}
 
 .erdo-szintek {
     width: 100%;
-    background-color: #f2f0e7;
+    background-color: #f2f0e7 !important;
     color: #1b352b;
     margin-top: 45px;
 }
@@ -309,7 +310,7 @@ header ul li a:hover{
 }
 
 .erdo-szint.kiemelt {
-    background-color: #dfe5d3;
+    background-color: #dfe5d3 !important;
     padding: 17px 15px 16px;
     margin-left: 0;
     margin-right: 0;
@@ -433,3 +434,31 @@ header ul li a:hover{
     color:#fff;
 }
 
+.torekenyEgyensuly{
+    background-color: #fff;
+    color: #000;
+}
+
+.torekenyEgyensuly h3, .torekenyEgyensuly h2, .tavoliErdok h3, .tavoliErdok h2{
+    color: #000;
+}
+
+.tudatosKartya{
+    width: 600px;
+    margin: 10px;
+    background-color: #fff;
+}
+
+.tavoliErdok h3{
+    font-style: italic;
+}
+
+.tavoliErdok{
+    background-color: #e8e6db;
+    color: #000;
+}
+
+.tipp{
+    color: #173d30;
+    font-weight: 800;
+}
