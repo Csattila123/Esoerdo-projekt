@@ -470,3 +470,23 @@ header ul li a:hover{
 .tavoliErdok{
     padding-bottom: 130px !important;
 }
+
+footer{
+    background-color:#1b352b;
+    color: #fff;
+}
+
+footer h3{
+    text-transform: uppercase;
+    color: #718077;
+    font-size: 15px;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer p{
+    margin-bottom: 5px;
+}
