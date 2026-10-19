@@ -349,3 +349,30 @@ header ul li a:hover{
     max-width: 850px;
 }
 
+
+.fajok{
+    background-color: rgb(221, 228, 209);
+}
+
+.elolenynev{
+    justify-content: space-between;
+    align-items:center;
+}
+
+.elolenyhivatkozas svg{
+    color: darkgreen;
+    transition: height 0.3s ease-in-out !important;
+}
+
+.elolenyhivatkozas svg:hover{
+    height: 30px !important;
+}
+
+.latinnev{
+    color:#8a8a8a !important;
+    margin: 10px 0px;
+}
+
+.pelda{
+    color:#8a8a8a;
+}
