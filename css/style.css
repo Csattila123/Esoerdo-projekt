@@ -242,7 +242,7 @@ header ul li a:hover{
     padding-bottom: 100px;
 }
 
-.torekenyEgyensuly, .zoldHatter{
+.torekenyEgyensuly, .zoldHatter, .tavoliErdok{
     padding-top: 100px;
 }
 
@@ -358,4 +358,33 @@ header ul li a:hover{
 .kisZold{
     background-color: #dde4d1;
     color: #173d30;
+}
+
+.torekenyEgyensuly{
+    background-color: #fff;
+    color: #000;
+}
+
+.torekenyEgyensuly h3, .torekenyEgyensuly h2, .tavoliErdok h3, .tavoliErdok h2{
+    color: #000;
+}
+
+.tudatosKartya{
+    width: 600px;
+    margin: 10px;
+    background-color: #fff;
+}
+
+.tavoliErdok h3{
+    font-style: italic;
+}
+
+.tavoliErdok{
+    background-color: #e8e6db;
+    color: #000;
+}
+
+.tipp{
+    color: #173d30;
+    font-weight: 800;
 }
