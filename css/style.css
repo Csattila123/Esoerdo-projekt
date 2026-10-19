@@ -392,14 +392,14 @@ header ul li a:hover{
     background:
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(13, 29, 5, 0.9)),
         url("../images/Livingfoliage.png");
-    height: 500px;
+    height: 550px;
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
     background-position: center top;
     padding-left: 80px;
     padding-right: 80px;
-    
+   padding-bottom: 100px !important;
 }
 
 .mittehetsz h2{
@@ -463,4 +463,10 @@ header ul li a:hover{
     font-weight: 800;
 }
 
+.eltunik{
+    font-size: 60px;
+}
 
+.tavoliErdok{
+    padding-bottom: 130px !important;
+}
