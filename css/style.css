@@ -77,7 +77,7 @@ header ul li a:hover{
 
 
 .kapcsolatok {
-    background-color: #f2f0e7;
+    background-color: #f2f0e7 !important;
     padding: 85px 5.4% 80px;
 }
 
@@ -221,7 +221,7 @@ header ul li a:hover{
 }
 
 .esoerdohatter{
-    background-color: rgb(232, 230, 219);
+    background-color: rgb(232, 230, 219) !important;
 }
 
 .esoerdoatlasz span{
