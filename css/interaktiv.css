@@ -14,7 +14,7 @@ input{
 
 main{
     background:
-        linear-gradient(rgba(0, 0, 0, 0.5), rgba(11, 26, 4, 0.25)),
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(11, 26, 4, 0.1)),
         url("../images/quizBackground.jpg");
     background-repeat: no-repeat;
     background-size: cover;
