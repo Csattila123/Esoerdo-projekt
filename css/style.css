@@ -499,3 +499,22 @@ header ul li a:hover{
     border-radius: 15px;
 }
 
+footer{
+    background-color:#1b352b;
+    color: #fff;
+}
+
+footer h3{
+    text-transform: uppercase;
+    color: #718077;
+    font-size: 15px;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer p{
+    margin-bottom: 5px;
+}
