@@ -386,3 +386,50 @@ header ul li a:hover{
     background-color: #dde4d1;
     color: #173d30;
 }
+
+.mittehetsz{
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(13, 29, 5, 0.9)),
+        url("../images/Livingfoliage.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    background-position: center top;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+}
+
+.mittehetsz h2{
+    font-size: 50px;
+}
+
+.mittehetsz p{
+    color: #aaa;
+}
+
+.mittehetszdiv{
+    width: 30% ;
+    padding-left: 70px;
+}
+
+.mittehetszdiv .btn-success{
+    background-color: rgb(212,230, 168);
+    color:#000;
+    border-radius: 10px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.mittehetszdiv .btn-success:hover{
+    background-color: rgb(108, 121, 72);
+    color:#000;
+    font-weight: 500;
+}
+
+.mittehetszdiv .btn-outline-light:hover{
+    background-color:rgb(175, 175, 175);
+    color:#fff;
+}
+
