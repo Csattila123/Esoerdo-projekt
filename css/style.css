@@ -65,10 +65,17 @@ header ul li a:hover{
 .kezdes button{
     font-size: 16px;
     padding: 10px 30px;
+    background-color: rgb(212,230, 168);
+    color:#000;
+    border: none;
+    font-weight: 600;
 }
 
 .kezdes button:hover{
-    background-color: rgb(74, 177, 6);
+    background-color: rgb(108, 121, 72);
+    color:#000;
+    border: none;
+    font-weight: 600;
 }
 
 
@@ -429,6 +436,12 @@ header ul li a:hover{
     font-weight: 500;
 }
 
+.mittehetszdiv .btn-outline-light{
+    background-color:transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
 .mittehetszdiv .btn-outline-light:hover{
     background-color:rgb(175, 175, 175);
     color:#fff;
@@ -464,9 +477,25 @@ header ul li a:hover{
 }
 
 .eltunik{
-    font-size: 60px;
+    font-size: 50px;
+    font-family: "JetBrains Mono", monospace;
 }
 
 .tavoliErdok{
     padding-bottom: 130px !important;
 }
+
+.fajcim{
+    font-family: "JetBrains Mono", monospace;
+    font-size: 50px;
+}
+
+.legnagyobb{
+    font-family: "JetBrains Mono", monospace;
+    font-size: 50px;
+}
+
+.kepamazon{
+    border-radius: 15px;
+}
+
