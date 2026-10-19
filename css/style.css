@@ -262,7 +262,7 @@ header ul li a:hover{
 
 .esoerdoszint{
     padding-top: 70px;
-    background-color: #f2f0e7;
+    background-color: #f2f0e7 !important;
 }
 
 .szintek{
@@ -272,19 +272,20 @@ header ul li a:hover{
 .szintek h2{
      font-family: "JetBrains Mono", monospace;
      font-size: 50px;
+     color: #000;
 }
 
 .szintek p{
     color: #616161;
 }
 
-
-
-
+.szintek{
+    color: #000 !important;
+}
 
 .erdo-szintek {
     width: 100%;
-    background-color: #f2f0e7;
+    background-color: #f2f0e7 !important;
     color: #1b352b;
     margin-top: 45px;
 }
@@ -309,7 +310,7 @@ header ul li a:hover{
 }
 
 .erdo-szint.kiemelt {
-    background-color: #dfe5d3;
+    background-color: #dfe5d3 !important;
     padding: 17px 15px 16px;
     margin-left: 0;
     margin-right: 0;
