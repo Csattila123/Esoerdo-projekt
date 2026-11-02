@@ -528,3 +528,223 @@ footer a{
 footer p{
     margin-bottom: 5px;
 }
+
+
+.mobile-menu{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    header {
+        height: 280px !important;
+        min-height: 80svh;
+
+        padding: 24px;
+
+        background:
+            linear-gradient(
+                rgba(8, 22, 17, 0.55),
+                rgba(8, 30, 20, 0.65)
+            ),
+            url("../images/Rainforest canopy.png");
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+    }
+
+    header .szoveg {
+        padding: 0 !important;
+    }
+
+    header .container-fluid {
+        padding: 0 0 25px;
+    }
+
+    header .row {
+        margin: 0;
+    }
+
+   
+
+    header .logo {
+        height: 32px;
+        width: auto;
+    }
+
+    header h2 {
+        font-size: 26px;
+        margin: 0 0 0 10px;
+        font-weight: 600;
+    }
+
+    header .text-uppercase.mt-2 {
+        display: none;
+    }
+
+
+    
+
+    .desktop-menu {
+        display: none;
+    }
+
+
+    
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .menu-toggle {
+        background: transparent;
+        border: none;
+        color: white;
+        font-size: 32px;
+        padding: 0;
+        line-height: 1;
+        cursor: pointer;
+    }
+
+    .menu-toggle:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
+
+    
+
+    .mobil-navigacio {
+        background-color: rgba(15, 40, 29, 0.95);
+        margin-top: 15px;
+        padding: 15px 20px;
+        border-radius: 10px;
+    }
+
+    .mobil-navigacio.collapse {
+        display: none;
+    }
+
+    .mobil-navigacio.collapse.show {
+        display: block;
+    }
+
+    .mobil-navigacio ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .mobil-navigacio ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        display: block;
+        margin: 0;
+    }
+
+    .mobil-navigacio ul li a:hover {
+        color: #d4e6a8;
+    }
+
+
+    
+
+    .kezdes {
+        margin-top: 115px;
+    }
+
+    .kezdes span {
+        font-size: 12px;
+        color: #d4e6a8;
+        font-weight: 600;
+    }
+
+    .kezdes h1 {
+        font-family: Georgia, serif;
+        font-size: clamp(48px, 14vw, 64px);
+        font-weight: 400;
+        line-height: 1.02;
+        letter-spacing: -2px;
+        margin-top: 32px;
+        margin-bottom: 25px;
+    }
+
+    .kezdes p:first-of-type {
+        font-size: 18px;
+        line-height: 1.6;
+        color: #eeeeee;
+        margin-bottom: 26px;
+    }
+
+    .kezdes .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+
+        background-color: #d4e6a8;
+        color: #142b20;
+
+        border: none;
+        border-radius: 40px;
+
+        padding: 17px 25px;
+        font-size: 14px;
+        font-weight: 600;
+
+        min-width: 235px;
+    }
+
+    .kezdes .btn:hover {
+        background-color: #c5d994;
+        color: #142b20;
+    }
+
+
+   
+
+    header .mobile-menu {
+        display: block !important;
+    }
+
+    header .desktop-menu {
+        display: none !important;
+    }
+
+    header .menu-toggle {
+        display: inline-block !important;
+        color: white !important;
+        background: transparent !important;
+        border: none !important;
+        font-size: 32px;
+        cursor: pointer;
+    }
+
+    header .mobil-navigacio {
+        background-color: rgba(15, 40, 29, 0.95);
+        border-radius: 10px;
+        margin-top: 15px;
+        padding: 15px 20px;
+    }
+
+    header .mobil-navigacio ul {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    header .mobil-navigacio ul li a {
+        color: white !important;
+        text-decoration: none;
+        display: block;
+    }
+}
