@@ -11,5 +11,5 @@ Az esőerdők világának bemutatása és mit tehetünk értük
 - GitHub
 - JS
 ## Munkamegosztás
-Sólyom Attila: terkep.html, interaktiv.html, index.html második fele
-Tóth P. Bendegúz: index.html első fele, elovilag.html, mitTehetsz.html
+- Sólyom Attila: terkep.html, interaktiv.html, index.html második fele
+- Tóth P. Bendegúz: index.html első fele, elovilag.html, mitTehetsz.html
