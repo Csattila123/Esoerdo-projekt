@@ -747,4 +747,37 @@ footer p{
         text-decoration: none;
         display: block;
     }
+
+    .mobiltavolsag{
+        margin-bottom: 50px;
+    }
+
+    .szintek{
+        margin-top: 40px;
+    }
+
+    .mittehetsz{
+        display: none;
+    }
+
+    .szamok{
+        margin-top: 50px;
+    }
+
+    .esoerdoatlaszszam{
+        margin-top: 40px;
+    }
+
+    .aholazeso{
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .tropusiesoerdo, .tropusiesoerdoKapcsolatok{
+        margin-top: 0;
+        padding-top: 0;
+        padding-left: 20px ;
+        margin-left: 0;
+        
+    }
 }
